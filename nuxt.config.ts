@@ -2,7 +2,7 @@ const { APP_URL, API_URL, API_KEY } = process.env
 
 // v0.3.0
 export default defineNuxtConfig({
-  ssr: true,
+  ssr: false,
   runtimeConfig: {
     baseURL: APP_URL,
     apiURL: API_URL,
