@@ -30,7 +30,7 @@ jobs:
       - name: Install dependencies
         run: npm i
       - name: Static HTML export with Nuxt
-        run: https://nkykt1001.github.io/nuxt-blogapp/ npm run generate
+        run: https://nkykt1001.github.io/ npm run generate
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
