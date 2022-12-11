@@ -42,7 +42,7 @@ jobs:
       id-token: write
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: https://nkykt1001.github.io/nuxt-blogapp/
     runs-on: ubuntu-latest
     needs: build
     steps:
